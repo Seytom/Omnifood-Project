@@ -1,0 +1,174 @@
+
+
+/* Tablets: from 1024 to 1200px */
+@media only screen and (max-width: 1200px){
+    .hero-text-box{
+        padding: 0 2%;
+        width:100%;    
+    }   
+    .row{ padding: 0 2%; }
+    
+}
+
+/* Tablets: from 768 to 1023px */
+@media only screen and (max-width: 1023px){
+    body{font-size:18px; }
+    section { padding: 60px 0; }
+    .long-copy{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .small-icon{    
+        margin-right: 2%;
+        font-size: 100%;
+        width: 20px; 
+        margin-top: 2px;
+    }
+    .plan-box{        
+        width: 100%;
+        margin-left: 2px;        
+    }
+    .plan-price{ font-size: 230%; }
+    .plan-box div {padding: 10px; }
+    .plan-box ul li { 
+        padding: 3px 0;
+        font-size:90%;
+    }
+    .steps-box:first-child{    
+        margin-top: 10px;
+        padding-right: 20px;
+    }
+    .steps-box:last-child{    
+        margin-top: 30px;
+        padding-left: 20px;
+    }
+    .works-step{
+        margin-bottom: 40px;
+    }
+    .works-step:last-of-type{
+        margin-bottom: 60px;
+    }
+    .app-screen{    
+        width:50%;    
+        margin-right: 40px;
+    }
+    .cities-text{
+        font-size: 90%;
+    }
+    
+}
+
+/* Bigger phones: from 481 to 767px */
+@media only screen and (max-width: 767px){
+    
+    body { font-size: 16px;}
+    section {padding: 30px 0;}
+    h1 {font-size: 180%}
+    h2 {font-size: 150%}
+    
+    .row,
+    .hero-text-box {padding: 0 4%;}
+    
+    .col {
+        width: 100%;
+        margin: 1% 0 0% 0%;
+    } 
+    .long-copy{
+        width:100%;
+        margin: 0;
+    }
+    
+    .works-step div{
+        height: 50px;
+        padding-top: 5px;
+    }
+    
+    .works-step p{ padding-top: 5px; }
+    
+    .steps-box:first-child{
+        text-align: center;
+        margin-top: 15px;
+        padding-right: 0;
+    }
+    .app-screen{
+        margin-right: 0;
+        width: 40%;
+    }
+    
+    .section-testimonials{ height: 165vh; }
+    cite img {margin-left: 175px;}
+    .footer-nav1{font-size: 80%;}
+    .footer-nav2{margin: auto}
+    
+    .footer-nav2 li{  
+        font-size: 100%;    
+        float: left; 
+    }    
+    .main-nav {
+        float:left;
+        margin-top: 10px;
+        display: none;
+    }
+    .main-nav li {
+        display: block;
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        padding: 4px 0px;
+        border: none;        
+    }
+    .mobile-nav-icon {display: inline-block;}
+    
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {
+        padding: 10px 0px;          
+    }
+    .sticky .mobile-nav-icon {margin-top: 5px;}
+    .sticky .mobile-nav-icon i{color: #555;}
+
+    .sticky .main-nav li {
+        display: block;
+        margin-left: 40px;
+        margin-top: 0;
+        padding: 2px 0;
+        border: 0;
+    }
+    .sticky .main-nav li:last-child{
+        margin-bottom: 5px;
+    }
+
+    .sticky .logo-black{
+        display: block;
+        
+    }
+
+    .sticky .logo {display: none;}
+
+    
+    
+}
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px){
+    
+    body { font-size: 14px;}
+    section {padding: 15px 0;}
+    .btn:link,
+    .btn:visited{
+        display:inline-block;    
+        margin-right: 10px;
+        padding: 5px 15px;
+    }
+    .long-copy{font-size:.9;}
+    .section-testimonials{ height: 125vh; }
+    cite{margin-top: 10px;}    
+    cite img {
+        margin-left: 125px;
+        height: 60px;
+    }
+    .contact-form {width: 100%;}
+    
+}
